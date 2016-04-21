@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Advisories feature.
+ */
+
+include_once 'advisories.features.inc';

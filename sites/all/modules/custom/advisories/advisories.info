@@ -1,0 +1,16 @@
+name = Advisories
+description = A compilation of hike advisories
+core = 7.x
+package = Features
+version = 7.x-2.10
+dependencies[] = date
+dependencies[] = features
+dependencies[] = text
+features[features_api][] = api:2
+features[field_base][] = body
+features[field_base][] = field_date
+features[field_base][] = field_hike_
+features[field_instance][] = node-advisory-body
+features[field_instance][] = node-advisory-field_date
+features[field_instance][] = node-advisory-field_hike_
+features[node][] = advisory
